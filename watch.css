@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    margin: 80px;
+    padding: 80px;
+}
+
+.container h1 {
+    color: rgb(255, 204, 142);
+
+}
+
+.container p {
+    color: rgb(255, 204, 142);
+    font-family: sans-serif;
+
+
+}
+
+.container img {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.container img:hover {
+    height: 600px;
+    width: 600px;
+}
+
+#btn {
+    width: 125px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 204, 142);
+    border-radius: 7px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color: rgb(82, 47, 1);
+
+}
+
+#btn a {
+    color: rgb(255, 204, 142);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.xiaomi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xiaomi h1 {
+    color: rgb(255, 204, 142);  
+    margin-left: 155px;  
+}
+.xiaomi img {
+    height: 140px;
+    width: 100px;
+    border-radius: 1000px;
+    margin-right: 1000px;
+    transition: 0.8s;
+}
+.xiaomi img:hover {
+    height: 160px;
+    width: 120px;
+}
+.menu ul li {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(255, 204, 142);
+    margin: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.4s;
+
+}
+
+.menu ul {
+    border: 1px solid rgb(255, 204, 142);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.menu ul:hover {
+    background-color: rgb(22, 12, 1);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 204, 142);
+    transition: 0.4s;
+} 
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+#button {
+    width: 140px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: rgb(82, 47, 1);
+
+}
+
+#button a {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#click {
+    width: 140px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid bisque;
+    border-radius: 7px;
+    color: rgb(255, 204, 142);  
+    margin-left: 90px;
+    margin-bottom: 200px;
+    transition: 0.5s;
+
+
+}
+#click:hover {
+    background-color: rgb(82, 47, 1);
+
+}
+
+#paragraph {
+    display: none;
+    margin: 10px;
+    margin-left: 130px;
+    padding: 10px;
+    color: rgb(92, 72, 48);
+
+}
+.services {
+    display: flex;
+    color: rgb(255, 204, 142);
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.services1{
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 40px;
+    height: 150%;
+    width: 200%;
+    border-radius: 10px;
+    background-image: url("f872ba4c6230846daf829c78b662f9df.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+
+}
+
+.services3{
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 40px;
+    height: 150%;
+    width: 200%;
+    border-radius: 10px;
+    background-image: url("f872ba4c6230846daf829c78b662f9df.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 204, 142);
+    margin: 40px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-color: rgb(8, 8, 8);
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+}
+#about {
+    display: flex;
+    color: rgb(255, 204, 142);
+    padding: 55px;
+    margin: 20px auto;
+    width: 85%;
+    justify-content: center;
+    /* align-items: center; */
+    margin-right: 20px;
+
+
+}
+
+#about img {
+    height: 550px;
+    max-width: 350px;
+    border-radius: 15px;
+    transition: 0.7s;
+    margin-right: 60px;
+    float: left;
+}
+
+#about img:hover {
+    border: 0.5px solid bisque;
+    box-shadow: inset;
+    
+}
+.h2 {
+    color: rgb(255, 204, 142);
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+.dukes {
+    color: rgb(255, 204, 142);
+    text-align: center;
+}
+.faq {
+    color: rgb(255, 204, 142);
+    background-color: rgb(8, 8, 8);
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vh auto;
+    height: 100vh auto;
+    padding: 20px;
+}
+.faq a {
+    text-decoration: none;
+    color: rgb(255, 204, 142);
+    transition: 0.4s;
+}
+.faq a:hover{
+    text-decoration: underline;
+}
